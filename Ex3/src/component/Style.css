@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+/* HEADER  */
+.header_content {
+  max-width: 1250px;
+  margin: auto;
+}
+.header_content nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.header_content nav ul li {
+  list-style: none;
+  padding-top: 10px;
+}
+.header_content nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.header_content nav ul li a i {
+  color: red;
+}
+/* BANNER  */
+.banner_content {
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+}
+.bannerRight {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* PRODUCT */
+.Trend_Content {
+  max-width: 1250px;
+  margin: auto;
+}
+.info {
+  display: flex;
+  gap: 10px;
+}
+.info .priceItem {
+  color: red;
+}
+.info del {
+  margin-right: 15px;
+}
+.info span {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+.info p {
+  margin: 5px 0;
+}
